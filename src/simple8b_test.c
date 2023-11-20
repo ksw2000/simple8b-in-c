@@ -47,24 +47,46 @@ void testEncode(int n, uint64_t val) {
 
 int main() {
     testEncodeNoValues();
+    printf("Pass testEncodeNoValues()\n");
     testEncode(20, 2);
+    printf("Pass testEncode(20, 2)\n");
     testEncode(250, 0);
+    printf("Pass testEncode(250, 0)\n");
     testEncode(250, 1);
+    printf("Pass testEncode(250, 1)\n");
     testEncode(250, 134);
+    printf("Pass testEncode(250, 134)\n");
     testEncode(240, 1);
+    printf("Pass testEncode(240, 1)\n");
     testEncode(120, 1);
+    printf("Pass testEncode(120, 1)\n");
     testEncode(60, 1);
+    printf("Pass testEncode(60, 1)\n");
     testEncode(30, 3);
+    printf("Pass testEncode(30, 3)\n");
     testEncode(20, 7);
+    printf("Pass testEncode(20, 7)\n");
     testEncode(15, 15);
+    printf("Pass testEncode(15, 15)\n");
     testEncode(12, 31);
+    printf("Pass testEncode(12, 31)\n");
     testEncode(10, 63);
+    printf("Pass testEncode(10, 63)\n");
     testEncode(8, 127);
+    printf("Pass testEncode(8, 127)\n");
     testEncode(7, 255);
+    printf("Pass testEncode(7, 255)\n");
     testEncode(6, 1023);
+    printf("Pass testEncode(6, 1023)\n");
     testEncode(5, 4095);
+    printf("Pass testEncode(5, 4095)\n");
     testEncode(4, 32767);
+    printf("Pass testEncode(4, 32767)\n");
     testEncode(3, 1048575);
+    printf("Pass testEncode(3, 1048575)\n");
     testEncode(2, 1073741823);
+    printf("Pass testEncode(2, 1073741823)\n");
     testEncode(1, 1152921504606846975);
+    printf("Pass testEncode(1, 1152921504606846975)\n");
+    return 0;
 }
